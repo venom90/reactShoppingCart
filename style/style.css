@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+.robotoSlab{
+    font-family: 'Roboto Slab', serif;
+}
+
+.modal .modal-content {
+    width: 834px;
+    height: 579px;
+    display: block;
+    left: 50%;
+    margin-left: -403px;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 20px;
+}
+
+.modal {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=);
+}

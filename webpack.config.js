@@ -1,10 +1,11 @@
+const path = require('path');
 module.exports = {
     entry: [
         './src/index.js'
     ],
     output: {
-        path: __dirname,
-        publicPath: '/',
+        path: path.join(__dirname, './static/'),
+        publicPath: './static/',
         filename: 'bundle.js'
     },
     module: {
@@ -25,7 +26,6 @@ module.exports = {
     },
     devServer: {
         historyApiFallback: true,
-        contentBase: './',
-        port: process.env.PORT || 8080
+        contentBase: './'
     }
 };

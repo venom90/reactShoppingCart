@@ -11,14 +11,14 @@ class Modal extends Component{
     }
     render(){
         return (
-            <div className="modal" role="dialog">
+            <div className="modal" role="dialog" style={(this.props.show) ? {display: 'block'} : {display: 'none'}}>
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <button
                             type="button"
                             className="close"
                             onClick={this.close}
-                        >&times;</button>
+                        >X</button>
                         <div className="modal-body">
                             {this.props.children}
                         </div>

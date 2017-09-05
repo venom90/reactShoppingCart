@@ -7,6 +7,51 @@
     font-family: 'Roboto Slab', serif;
 }
 
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+ul{padding: 0;}
+
+.taR{
+    text-align: right;
+}
+
+.tu{
+    text-decoration: underline;
+    line-height: 1.4;
+}
+
+.taC{
+    text-align: center;
+}
+
+.grey{color: gray;}
+
+table.table {
+    border-bottom: 5px solid #DDD;
+}
+
+table.table tbody tr:first-child{
+    border-top: 5px solid #DDDDDD;
+}
+
+table.table tr td:first-child {
+    padding: 13px;
+}
+
+table.table tr td {
+    padding-top: 27px;
+}
+
+p{
+    line-height: 1.2;
+}
+
+.allCap{
+    text-transform: uppercase;
+}
+
 .modal .modal-content {
     width: 834px;
     height: 579px;
@@ -20,4 +65,118 @@
 
 .modal {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=);
+}
+
+.posRel{
+    position: relative;
+}
+
+.cartRow{
+    min-height: 76px;
+}
+
+ul.cartItemNav {
+    position: absolute;
+    padding: 0;
+    list-style-type: none;
+    bottom: 0;
+}
+
+ul.cartItemNav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+ul.cartItemNav li:after{
+    content: "|";
+    margin-left: 12px;
+}
+
+ul.cartItemNav li a {
+    color: #555;
+}
+
+button.btn.btn-primary {
+    background-color: #337ab7;
+    border: none;
+    border-radius: 0;
+    margin: 0 0 0 12px;
+}
+
+button.btn.btn-basic {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 0;
+    margin-left: 13px;
+}
+
+input[type="text"] {
+    height: 33px;
+}
+
+tr.estTotal {
+    font-size: 21px;
+}
+
+button.close {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    font-size: 26px;
+    z-index: 999;
+}
+
+.image-holder {
+    display: flex;
+    align-items: center;
+    height: 535px;
+}
+
+.image-holder img{margin: 0 auto;}
+
+.edit-control{
+    text-align: center;
+    margin-top: 90px;
+}
+.edit-control button.btn.btn-primary{
+    margin-top: 20px;
+}
+.color ul {
+    list-style-type: none;
+}
+
+.color ul li {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+select {
+    border: 1px solid;
+    border-radius: 0;
+    -webkit-appearance: none;
+    padding: 6px 21px;
+    margin-right: 7px;
+    background-color: #fff;
+}
+
+.edit-control p.price.taC {
+    font-size: 44px;
+}
+
+.edit-control p.price.taC sup {
+    font-size: 17px;
+    vertical-align: top;
+    line-height: 64px;
+    margin-right: 4px;
+    color: #aaa;
+}
+
+.edit-control button.btn.btn-primary {
+    margin-top: 20px;
+    padding: 13px 65px;
+    font-size: 18px;
+    margin-bottom: 13px;
 }
